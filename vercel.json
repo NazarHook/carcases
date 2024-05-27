@@ -1,5 +1,12 @@
 {
-    "rewrites": [
-     {"source": "/(.*)", "destination": "/"}
+    "routes": [
+      {
+        "src": "/css/(.*)",
+        "headers": {
+          "Content-Type": "text/css"
+        },
+        "dest": "/public/css/$1"
+      }
     ]
-   }
+  }
+  
