@@ -63,6 +63,7 @@ img {
   margin: 0 auto;
   width: 100%;
   background: #fff;
+   overflow-x: auto;
 }
 .offer-section{
   -webkit-text-size-adjust: 100%;
