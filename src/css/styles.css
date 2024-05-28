@@ -56,7 +56,7 @@ img {
   color: #373737;
   cursor: default;
   box-sizing: border-box;
-  padding: 0;
+  padding: 0 ;
   border: 0;
   outline: 0;
   font-size: 100%;
@@ -222,11 +222,11 @@ img {
     letter-spacing: -1px;
     text-align: center;
     padding: 30px 0 0;
-    margin: 0 0 20px;
+    margin: 20px 0px 0px 20px;
 list-style-type: none;
 }
 .ofr-bull>li {
-  width: 135px;
+  width: 126px;
   display: inline-block;
   vertical-align: top;
   margin: 0 8px;
